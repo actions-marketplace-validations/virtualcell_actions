@@ -1,5 +1,5 @@
-name: 'Virtual Cell Dev Environment'
-description: 'Creating a required dev env to compile Virtual Cell Java Code'
+name: "Virtual Cell Dev Environment"
+description: "Creating a required dev env to compile Virtual Cell Java Code"
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
