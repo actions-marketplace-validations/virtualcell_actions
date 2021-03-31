@@ -7,6 +7,8 @@ jobs:
     steps:
       - name: Use the action YAML
         uses: ./
+        with:
+          branch: master
       - name: Get Java and maven version
         run: |
           java -version
