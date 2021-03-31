@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-18.04
     name: Test the action YAML
     steps:
+      - uses: actions/checkout@master
       - name: Use the action YAML
         uses: ./
         with:
